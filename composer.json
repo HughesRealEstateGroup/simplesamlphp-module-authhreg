@@ -1,5 +1,5 @@
 {
-    "name": "hreg/authhreg-simplesamlphp-module",
+    "name": "hughesrealestategroup/simplesamlphp-module-authhreg",
     "description": "A module to authenticate via hughesrealestategroup.com on the same server.",
     "type": "simplesamlphp-module",
     "require": {
