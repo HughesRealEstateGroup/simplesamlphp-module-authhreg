@@ -1,0 +1,9 @@
+{
+    "name": "hreg/authhreg-simplesamlphp-module",
+    "description": "A module to authenticate via hughesrealestategroup.com on the same server.",
+    "type": "simplesamlphp-module",
+    "require": {
+        "simplesamlphp/composer-module-installer": "~1.0"
+    }
+}
+
