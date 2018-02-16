@@ -3,6 +3,7 @@
     "description": "A module to authenticate via hughesrealestategroup.com on the same server.",
     "type": "simplesamlphp-module",
     "require": {
+		"simplesamlphp/simplesamlphp": "^1.14",
         "simplesamlphp/composer-module-installer": "~1.0"
     }
 }
