@@ -22,7 +22,7 @@ $state = SimpleSAML_Auth_State::loadState($stateID, sspmod_authhreg_Auth_Source_
 
 /* Find authentication source. */
 if (!array_key_exists(sspmod_authhreg_Auth_Source_HREG::AUTHID, $state)) {
-	throw new SimpleSAML_Error_BadRequest('No data in state for ' . sspmod_authhreg_Auth_Source_HREGk::AUTHID);
+	throw new SimpleSAML_Error_BadRequest('No data in state for ' . sspmod_authhreg_Auth_Source_HREG::AUTHID);
 }
 $sourceId = $state[sspmod_authhreg_Auth_Source_HREG::AUTHID];
 
